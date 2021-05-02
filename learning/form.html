@@ -1,0 +1,78 @@
+
+
+
+<html>
+<head>
+    <title>Log in to Gaming Website</title>
+    <link rel="stylesheet" type="text/css" href="css/item_page.css">
+    <script src="js/js.js"></script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <ul class="navl">
+        <li>
+            <a class="navi" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="navi" href="cart.html">Shop</a>
+        </li>
+        <li>
+            <a class="navir" href="form.html">Login</a>
+        </li>
+
+        <li>
+            <input type="search" class="search" placeholder="search"/>
+
+        </li>
+    </ul>
+</div>
+<!--  -------------------------------------- Form area ----------------------------------------------------- -->
+<div id="form">
+    <form id = "register-form" method="post" action="insert.php" autocomplete="on" >
+
+    <div class="formItem">
+        <input type="text" name="fName" placeholder="First Name" required/>
+    </div>
+
+    <div class="formItem">
+        <input type="text" name="lName" placeholder="Last Name" required/>
+    </div>
+
+    <div class="formItem">
+        <input type="email" name="mail" placeholder="myemail@example.com" required/>
+    </div>
+
+    <div class="formItem">
+        <input type="password" name="pass" placeholder="password" required/>
+    </div>
+
+    <div class="formItem formSubmit" id="formSubmit">
+        <input type="submit" name="register" value="Create">
+    </div>
+    <div class="formItem">
+        <p class="message">Already Registered? <a class="links" href="#" onclick="hide_registration()">Log In!</a></p>
+    </div>
+
+</form>
+    <form id = "login-form" method="post" action="form.php" autocomplete="on" >
+        <div class="formItem">
+            <input type="email" name="email" placeholder="myemail@example.com" required/>
+        </div>
+
+        <div class="formItem">
+            <input type="password" name="password" placeholder="password" required/>
+        </div>
+        <div class="formItem formSubmit" id="formSubmitLogIn">
+            <input type="submit" name="Submit" value="Log In">
+        </div>
+        <div class="formItem">
+        <p class="message">Not registered? <a class="links" href="#" onclick="display_registration()">Register Now!</a></p>
+        </div>
+    </form>
+</div>
+<!--  -------------------------------------- Form area End ----------------------------------------------------- -->
+</body>
+</html>
