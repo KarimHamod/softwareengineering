@@ -1,6 +1,7 @@
 <?php
 $server= "localhost";
 $username="root";
+$port=3306;
 $password = "mrlemons";
 $database = "login";
 $con=mysqli_connect($server,$username,$password,$database);
@@ -25,6 +26,5 @@ if (isset($_POST['Submit'])){
 
     }
 }
-
 ?>
 

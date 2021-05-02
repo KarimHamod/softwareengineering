@@ -1,0 +1,24 @@
+<html>
+    <head>
+     <title>Log in to Gaming Website</title>
+    
+    </head>
+
+    <body>
+    <form id = "login-form" method="post" action="form.php" autocomplete="on" >
+        <div class="formItem">
+            <input type="email" name="email" placeholder="myemail@example.com" required/>
+        </div>
+
+        <div class="formItem">
+            <input type="password" name="password" placeholder="password" required/>
+        </div>
+        <div class="formItem formSubmit" id="formSubmitLogIn">
+            <input type="submit" name="Submit" value="Log In">
+        </div>
+        <div class="formItem">
+        <p class="message">Not registered? <a class="links" href="register.html" onclick="display_registration()">Register Now!</a></p>
+        </div>
+    </form>
+    </body>
+</html>
