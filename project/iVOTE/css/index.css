@@ -1,0 +1,90 @@
+nav{
+ background-color: cadetblue;
+}
+.navi{
+   color: white;
+}
+.navi:hover{
+   color: cadetblue;
+    background-color:white;
+}
+div.candidate {
+
+    font-family: Calibri;
+    max-width: 50%;
+    max-height: 80%;
+    margin: auto;
+    border: solid 0px;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p.lineOver {
+    background-color: cadetblue;
+    display: block;
+    height: 5px;
+}
+.candidateName{
+    margin-top: 70px;
+    font-size: 50px;
+    color: white;
+    background-color: cadetblue;
+    height: 56px;
+    text-align: center;
+}
+
+.slogan{
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+
+    border-color: black;
+
+}
+.slogandetail{
+    font-size: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+}
+.goals{
+    font-size: 20px;
+    list-style: upper-roman;
+    border: solid 5px;
+    border-color: cadetblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color:cadetblue;
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 420px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: cadetblue;
+    border-color: cadetblue;
+}
+.image{
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.box{
+    border: solid 2px cadetblue;
+    list-style: none;
+    font-size: 30px;
+}
+.right{
+    float: right;
+}
