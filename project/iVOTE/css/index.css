@@ -81,10 +81,30 @@ p.lineOver {
 }
 
 .box{
+    margin-top: 100px;
     border: solid 2px cadetblue;
     list-style: none;
     font-size: 30px;
+    border-radius: 20px;
+    width: 1800px;
+
+
+
 }
 .right{
     float: right;
+    margin-top: 60px;
+    color: cadetblue;
+}
+.A {
+    margin-right: 600px;
+}
+.B{
+    margin-right: 400px;
+}
+.C{
+    margin-right: 420px;
+}
+.D{
+    margin-right: 520px;
 }
