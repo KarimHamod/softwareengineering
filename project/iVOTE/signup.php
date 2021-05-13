@@ -1,7 +1,14 @@
 <?php
     include_once 'header.php'
 ?>
+<body>
 
+<div class="info">
+    <h1> Sign up</h1>
+    <p class="lineOver"></p>
+    <h2>please fill your information below</h2>
+    <p class="lineOver"></p>
+</div>
 <section class="form">
 
     <form action="signup_validate.php" method="post">
