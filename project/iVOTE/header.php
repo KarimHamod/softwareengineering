@@ -13,17 +13,17 @@
 <nav class="navbar navbar-fixed-top ">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand navi"  href="index.html">iVOTE</a>
+            <a class="navbar-brand navi"  href="index.php">iVOTE</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a class="navi" href="candidate.html">Candidates</a></li>
+            <li><a class="navi" href="candidate.php">Candidates</a></li>
             <li><a class="navi" href="#">Results</a></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a  class="navi" href="#">About Us</a></li>
             <li><a  class="navi" href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a  class="navi" href="index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a  class="navi" href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
     </div>
 </nav>

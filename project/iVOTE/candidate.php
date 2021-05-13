@@ -3,7 +3,7 @@
 ?>
         <ul>
             <div class="box">
-                <a href="candidateA.html">
+                <a href="candidateA.php">
                  <img class="image"src="images/candidateA.jpg" height="250px" width="250px" alt="this is a photo of Candidate A " title="Candidate A "/>
 
                     <div class="right A">
@@ -14,7 +14,7 @@
                 </a>
             </div>
            <div class="box">
-               <a href="candidateB.html">
+               <a href="candidateB.php">
                <img class="image"src="images/candidateB.png" height="250px" width="250px" alt="this is a photo of Candidate B " title="Candidate B "/>
 
                     <div class="right B">
@@ -25,7 +25,7 @@
                </a>
            </div>
            <div class="box">
-               <a href="candidateC.html">
+               <a href="candidateC.php">
                <img class="image"src="images/candidateC.png" height="250px" width="250px" alt="this is a photo of Candidate C " title="Candidate C "/>
 
                     <div class="right C">
@@ -36,7 +36,7 @@
                </a>
            </div>
            <div class="box">
-               <a href="candidateD.html">
+               <a href="candidateD.php">
             <img class="image"src="images/candidateD.png" height="250px" width="250px" alt="this is a photo of Candidate D " title="Candidate D "/>
 
                     <div class="right D">
