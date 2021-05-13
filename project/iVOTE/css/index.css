@@ -114,6 +114,7 @@ p.lineOver {
     background-color:cadetblue;
     font-weight: bold;
     color: white;
+    
     display: block;
     text-align: center;
     text-decoration: none;
@@ -141,11 +142,14 @@ p.lineOver {
     text-align: center;
 }
 .form{
-    width:50%;
-    border:solid 10px;
-    border-color: black;
-    border-radius: 5px;
-    padding-top: 10px;
-    margin-top:10%;
-    margin-left:25%; 
+    margin-top: 100px;
+    text-align: center;
+    display:block;
+    background-color: cadetblue;
+    border:  solid 5px;
+    margin-left: 33%;
+    border-radius: 50px;
+    padding-top: 50px;
+    width:35%;
+    color:white;
 }

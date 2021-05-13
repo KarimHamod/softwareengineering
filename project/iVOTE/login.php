@@ -3,7 +3,7 @@
 ?>
 <html>
     <body>
-        <div class="sinup">
+        <div">
             <h1>Login</h1>
             <h2>please fill your information below</h2>
             <form action="login_validate.php" method="post">

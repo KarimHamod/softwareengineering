@@ -1,7 +1,6 @@
 <?php
     include_once 'header.php'
 ?>
-
         <section class="form">
             <h1> Sign up</h1>
             <h2>please fill your information below</h2>
@@ -21,7 +20,6 @@
                     <input type="text" name="User_Name" placeholder="UserName" required>
                     </label>
                 </p>   
-                
                 <p> 
                     <label>Password:
                     <input type="password" name="password" placeholder="password" required>
@@ -32,8 +30,8 @@
                     <input type="email" name="email" placeholder="email" required>
                     </label>
                 </p>
-                <button type="submit" name="submit">signup</button>
-                <button type="clear" name="clear">Reset</button>
+                <button type="submit"class="buttons"name="submit">signup</button>
+                <button type="reset"class="buttons"name="clear">Reset</button>
             </form>
         </section>
    
