@@ -1,0 +1,42 @@
+.admin_nav {
+background-color: rgb(0, 69, 104)
+}
+.admin_wrapper {
+    
+height:100%;
+
+display: flex;
+font-family: Calibri;
+max-width: 100%;
+max-height: 80%;
+border-radius: 5px;
+}
+body {
+    display: block;
+    height:100%;
+    width: 100%;
+}
+
+.side_bar{
+    flex: 2;
+    background-color: lightseagreen;
+    height:100%;
+
+}
+.admin_content{
+    flex: 8;
+    background-color: rgb(180, 226, 253);
+    padding:18px;
+}
+.side_bar_ul{
+    list-style:none;
+    color: white;
+}
+a, .side_bar_u{
+    color: white
+}
+.admin_wrapper .side_bar ul li a{
+    padding:18px;
+    display: block;
+    border-bottom: 1px solid #004044
+}
