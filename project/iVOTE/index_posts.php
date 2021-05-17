@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style>
 <head>
     <meta charset="UTF-8">
     <title>iVOTE</title>
@@ -36,9 +36,47 @@
         </ul>
     </div>
     <div class="admin_content">
-    <p>sayonara arigato 456<p>
+        <div class="button-group">
+            <a href="creat.php" class ="btn btn-big">Add Post</a>
+            <a href="index.php" class="btn btn-big"> Manage Posts </a>
+        </div>
+
+        <h2 class="page_title">Manage Posts</h2>
+        <table> 
+            <thead>
+                <th>SN</th>
+                <th>Title</th>
+                <th>Candidate</thh>
+                <th colspan="3">Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>CandidateA</td>
+                    <td>C-stuff</td>
+                    <td class="edit"><a href="#">edit</a></td>
+                    <td class="del"><a href="#">Delete</a></td>
+                    <td class="add"><a href="#">ADD</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CandidateB</td>
+                    <td>C-stuff</td>
+                    <td class="edit"><a href="#">edit</a></td>
+                    <td class="del"><a href="#">Delete</a></td>
+                    <td class="add"><a href="#">ADD</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>CandidateC</td>
+                    <td>C-stuff</td>
+                    <td class="edit"><a href="#">edit</a></td>
+                    <td class="del"><a href="#">Delete</a></td>
+                    <td class="add"><a href="#">ADD</a></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-</div>
 </body>
 
 
