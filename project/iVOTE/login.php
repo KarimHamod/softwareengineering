@@ -6,7 +6,7 @@
         <div">
             <h1>Login</h1>
             <h2>please fill your information below</h2>
-            <form action="login_validate.php" method="post">
+            <form action="validate/login-validate.php" method="post">
                 <p class="">
                     <label>UserName:
                     <input type="text" name="User_Name" placeholder="UserName/Email" required>
