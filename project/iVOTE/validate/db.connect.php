@@ -1,10 +1,15 @@
-<php?
+<?php
     $server="localhost";
     $db_UserName="root";
     $db_password="mrlemons";
     $db_Name="test1";
 
-    $conn=mysqli_connect($server,$db_UserName,$db_password,$db_Name); 
+    $con= mysqli_connect($server,$username,$password,$database);
+if (!$con)
+{
+    die("connection failed:".mysqli_connect_error());
+}
+else{echo"connected successfully";}
 
     
     ?>

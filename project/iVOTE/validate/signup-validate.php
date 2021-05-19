@@ -32,7 +32,7 @@
             header("location: ../signup.php?error=userNameExists");
             exit();
         }
-        createUser($conn,$First_Name,$Last_Name,$User_Name,$Email,$password);
+        createUser($conn,$First_Name,$Last_Name,$User_Name,$password,$Email);
     }
     
     else{
