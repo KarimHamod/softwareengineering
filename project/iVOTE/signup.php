@@ -11,7 +11,7 @@
 </div>
 <section class="form">
 
-    <form action="validate/signup-validate.php" method="POST">
+    <form action="signup_validate.php" method="post">
         <p>
             <label>First Name:
                 <input class="textarea" type="text" name="First_Name" placeholder="First Name" required>
@@ -23,7 +23,7 @@
             </label>
         </p>
         <p>
-            <label>User Name:
+            <label>UserName:
                 <input class="textarea" type="text" name="User_Name" placeholder="UserName" required>
             </label>
         </p>
@@ -37,9 +37,12 @@
             <input class="textarea" type="password" name="password" placeholder="password" required>
         </label>
         </p>
-        
+        <p>
+
+
             <button class="buttons" type="submit" name="submit">signup</button>
             <button  class="buttons" type="reset" name="clear">Reset</button>
+
     </form>
 </section>
 
