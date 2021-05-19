@@ -47,7 +47,7 @@
     function UserExists($conn,$User_Name,$Email)
     {
        
-        $sql="SELECT*FROM users WHERE users_id=? or users_UsersName=? or users_email=?;";
+        $sql="SELECT * FROM users WHERE UserName=? or Email=?";
         $stmt=mysqli_stmt_init($conn);
         if(!mysqli_stmt_prepare($stmt,$sql)){
             header("location: ../signup.php?error=stmtfailed");
@@ -69,14 +69,14 @@
     }
     function createUser($conn,$First_Name,$Last_Name,$User_Name,$password,$Email)
     {
-        $sql="INSERT INTO users (users_FirstName , users_LastName, users_UsersName , users_password , users_email)VALUES(?,?,?,?,?) ;";
+        $sql="INSERT INTO users (User_Fname,Last_Name,UserName,pwd,Email)VALUES( ? , ? , ? , ? ,?) ";
         $stmt=mysqli_stmt_init($conn);
-        if(!mysqli_stmt_prepare($stmt,$sql)){
-            header("location: ../signup.php?error=stmtfailed");
+        if(!mysqli_stmt_prepare($stmt, $sql)){
+            header("location: ../signup.php?error=stmtfailed1");
             exit();
         }
         $hashPwd=password_hash($password,PASSWORD_DEFAULT);
-        mysqli_stmt_bind_param($stmt,"sssss",$First_Name,$Last_Name,$User_Name,$Email,$hashPwd);
+        mysqli_stmt_bind_param($stmt,"sssss",$First_Name,$Last_Name,$User_Name,$hashPwd,$Email);
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
         header("location: ../signup.php?error=none");

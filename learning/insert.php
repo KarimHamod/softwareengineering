@@ -21,7 +21,7 @@ if (isset($_POST['register']))
         $lastName=$_POST['lName'];
         $email=$_POST['mail'];
         $password=$_POST['pass'];
-        $sql="insert into loginform(FirstName ,LastName ,Email ,Password) values('$firstName','$lastName','$email','$password')";
+        $sql="INSERT INTO loginform(FirstName ,LastName ,Email ,Password) values('$firstName','$lastName','$email','$password')";
         $run=mysqli_query($con,$sql)or die(mysqli_connect_error());
         if($run){
             echo"<h1>registered successfully</h1>";
