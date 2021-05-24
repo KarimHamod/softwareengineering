@@ -82,3 +82,7 @@ th, td{
 .edit a{
     color: blue;
 }
+
+#input_title{
+width:100%;
+}
