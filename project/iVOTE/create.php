@@ -30,16 +30,13 @@
 <div class="admin_wrapper">
     <div class="side_bar">
         <ul class = "side_bar_ul">
-            <li><a href="#">Manage Posts</a></li>
-            <li><a href="#">Manage Users</a></li>
-            <li><a href="#">Manage Topics</a></li>
+            <li><a href="#">Manage Candidates</a></li>
+            <li><a href="#">Manage Admin</a></li>
+            <li><a href="#">Manage Results</a></li>
         </ul>
     </div>
     <div class="admin_content">
-        <div class="button-group">
-            <a href="creat.php" class ="btn btn-big">Add Post</a>
-            <a href="index.php" class="btn btn-big"> Manage Posts </a>
-        </div>
+        
 
         <h2 class="page_title">Create a Candidate</h2>
         <div> 
@@ -50,8 +47,13 @@
             <label> Description </label> 
             <textarea name="body" id="editor" ></textarea>
         </div>
+
         <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
-    
+
+        <div class="create_btn" id="hello">
+            <button href="creat.php" class="btn-create">Add Post</button>
+            <button href="index.php" class="btn-create"> Manage Posts </button>
+        </div>
 <script src="ckeditor.js"></script>
 
 <script>
