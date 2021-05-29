@@ -1,14 +1,13 @@
 .admin_nav {
-background-color: rgb(0, 69, 104)
+    background-color: rgb(0, 69, 104);
+
 }
 .admin_wrapper {
     
-height:100%;
-
-display: flex;
-font-family: Calibri;
-max-width: 100%;
-border-radius: 5px;
+    height:100%;
+    display: flex;
+    max-width: 100%;
+    border-radius: 5px;
 }
 body {
     display: block;
@@ -17,50 +16,57 @@ body {
 }
 
 .side_bar{
-    flex: 2;
-    background-color: lightseagreen;
+    flex: 1.5;
+    background-color: rgb(0, 69, 104);
     height:100%;
 
 }
 .admin_content{
     flex: 8;
     background-color: rgb(242, 250, 255);
-    padding:18px;
     padding: 40px 100px 100px;
     overflow-y:scroll;
+    height: 100%;
+}
+#editor{
+    height: 500%;
 }
 .side_bar_ul{
     list-style:none;
     color: white;
+    margin-top: 50px;
 }
-a, .side_bar_u{
+
+
+a, .side_bar_ul{
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
+
 .admin_wrapper .side_bar ul li a{
     padding:18px;
     display: block;
-    border-bottom: 1px solid #004044;
+    border-bottom: 1px solid ;
     height:100%;
 }
 .admin_wrapper .side_bar ul li a:hover{
-    background-color:rgb(0, 69, 104);
-    color: white;
+    background-color:white;
+    color: rgb(0, 69, 104);
+    border: solid 5px rgb(0, 69, 104) ;
 }
 
 html, body {
     height:100%;
 }
 
-ul .side_bar {
-    padding-left:0;
-}
+
 a:link, a:visited{
     text-decoration:none;
 }
 .page_title {
     text-align: center;
 }
+
 table{
     width:100%;
     border-collapse:collapse;
@@ -70,7 +76,8 @@ th, td{
     padding:15px;
     text-align:left;
     border:collapse;
-    border-bottom:1px solid #d3d3d3;
+    border-bottom:1px solid rgb(0, 69, 104);
+
 }
 
 .add a{
@@ -84,11 +91,12 @@ th, td{
 }
 
 #input_title{
-width:100%;
+width:20%;
 }
 
 #hello{
     margin-top:100px;
+    margin-left: 40%;
 }
 .btn-create{
     background-color:rgb(0, 69, 104);
@@ -99,4 +107,10 @@ width:100%;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 30px;
+}
+.btn-create:hover{
+    background-color: white;
+    color:rgb(0, 69, 104) ;
+    border: solid 2px rgb(0, 69, 104);
 }

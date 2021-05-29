@@ -6,12 +6,12 @@
 <div class="info">
     <h1> Sign up</h1>
     <p class="lineOver"></p>
-    <h2>please fill your information below</h2>
-    <p class="lineOver"></p>
+
+
 </div>
 <section class="form">
 
-    <form action="signup_validate.php" method="post">
+    <form action="validate/signup-validate.php" method="post">
         <p>
             <label>First Name:
                 <input class="textarea" type="text" name="First_Name" placeholder="First Name" required>
@@ -39,7 +39,7 @@
         </p>
         <p>
 
-
+            <p>Already a member? please <a href="login.php">Login</a> </p>
             <button class="buttons" type="submit" name="submit">signup</button>
             <button  class="buttons" type="reset" name="clear">Reset</button>
 
