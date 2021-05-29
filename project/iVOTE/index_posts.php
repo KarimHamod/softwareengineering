@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/admin_css.css">
-    <script src=javascript/index.js></script>
+    <script src=javascript.index.js></script>
 </head>
 <body>
 <nav class="admin_nav">
@@ -23,7 +23,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a  class="navi" href="#"><span class="glyphicon glyphicon-user"></span> Admin Name</a></li>
-            <li><a  class="navi" href="login.php"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
+            <li><a  class="navi" href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
         </ul>
     </div>
 </nav>
@@ -73,7 +73,7 @@
                 </tr>
             </tbody>
         </table>
-        <div  id="hello">
+        <div class="create_btn" id="BtnCreate">
             <button href="creat.php" class="btn-create">Add Post</button>
             <button href="index.php" class="btn-create"> Manage Posts </button>
         </div>

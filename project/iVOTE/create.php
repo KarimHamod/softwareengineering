@@ -11,7 +11,7 @@
     <script src=javascript/index.js></script>
 </head>
 <body>
-<nav class="admin_nav navbar-fixed-top">
+<nav class="admin_nav">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand navi"  href="index.php">iVOTE</a>
@@ -23,18 +23,16 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a  class="navi" href="#"><span class="glyphicon glyphicon-user"></span> Admin Name</a></li>
-            <li><a  class="navi" href="login.php"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
+            <li><a  class="navi" href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
         </ul>
     </div>
 </nav>
 <div class="admin_wrapper">
     <div class="side_bar">
         <ul class = "side_bar_ul">
-            <div class="admin_actions">
             <li><a href="#">Manage Candidates</a></li>
             <li><a href="#">Manage Admin</a></li>
             <li><a href="#">Manage Results</a></li>
-            </div>
         </ul>
     </div>
     <div class="admin_content">
@@ -42,8 +40,8 @@
 
         <h2 class="page_title">Create a Candidate</h2>
         <div> 
-            <label> Candidate's Name </label><br>
-            <input id="input_title" type = "text" name="title" class="text-input">
+            <label> Candidate's Name </label>
+            <input #id="input_title"type = "text" name="title" class="text-input">
         </div>
         <div>
             <label> Description </label> 

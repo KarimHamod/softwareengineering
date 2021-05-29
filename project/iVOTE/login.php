@@ -3,30 +3,25 @@
 ?>
 <html>
     <body>
-    <div class="info">
-        <h1>Login</h1>
-        <p class="lineOver"></p>
-
-
-    </div>
-    <section class="form">
-        <div>
-            <form action="validate/login-validate.php" method="post">
+        <div">
+            <h1>Login</h1>
+            <h2>please fill your information below</h2>
+            <form action="login_validate.php" method="post">
                 <p class="">
                     <label>UserName:
-                    <input class="textarea" type="text" name="User_Name" placeholder="UserName/Email" required>
+                    <input type="text" name="User_Name" placeholder="UserName/Email" required>
                     </label>
-                </p>
+                </p>   
+                
                 <p> 
                     <label>Password:
-                    <input class="textarea" type="password" name="password" placeholder="password" required>
+                    <input type="password" name="password" placeholder="password" required>
                     </label>
                 </p>
-                <p>Not a member? please <a href="signup.php">sign up</a> </p>
-                <button class="buttons" type="submit" name="submit">login</button>
-                <button class="buttons" type="reset" name="clear">Reset</button>
+                
+                <button type="submit" name="submit">login</button>
+                <button type="clear" name="clear">Reset</button>
             </form>
         </div>
-    </section>
     </body>
 </html>
