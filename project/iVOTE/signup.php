@@ -1,17 +1,17 @@
 <?php
     include_once 'header.php'
 ?>
+<html>
 <body>
 
 <div class="info">
     <h1> Sign up</h1>
     <p class="lineOver"></p>
-    <h2>please fill your information below</h2>
-    <p class="lineOver"></p>
+
 </div>
 <section class="form">
 
-    <form action="signup_validate.php" method="post">
+    <form action="validate/signup-validate.php" method="post">
         <p>
             <label>First Name:
                 <input class="textarea" type="text" name="First_Name" placeholder="First Name" required>
@@ -36,8 +36,8 @@
         <label>Password:
             <input class="textarea" type="password" name="password" placeholder="password" required>
         </label>
-        </p>
-        <p>
+
+        <p> Already a member? Please <a href="login.php">Log in</a></p>
 
 
             <button class="buttons" type="submit" name="submit">signup</button>
@@ -45,5 +45,5 @@
 
     </form>
 </section>
-
+</html>
    

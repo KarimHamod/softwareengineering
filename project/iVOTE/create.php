@@ -40,7 +40,7 @@
 
         <h2 class="page_title">Create a Candidate</h2>
         <div> 
-            <label> Candidate's Name </label>
+            <label> Candidate's Name </label><br>
             <input #id="input_title"type = "text" name="title" class="text-input">
         </div>
         <div>
@@ -50,9 +50,9 @@
 
         <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
 
-        <div class="create_btn" id="hello">
-            <button href="creat.php" class="btn-create">Add Post</button>
-            <button href="index.php" class="btn-create"> Manage Posts </button>
+        <div  id="hello">
+            <button class="btn-create" href="creat.php" >Add Post</button>
+            <button class="btn-create" href="index.php" > Manage Posts </button>
         </div>
 <script src="ckeditor.js"></script>
 

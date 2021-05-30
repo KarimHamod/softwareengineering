@@ -43,7 +43,7 @@
             <thead>
                 <th>SN</th>
                 <th>Title</th>
-                <th>Candidate</thh>
+                <th>Candidate</th>
                 <th colspan="3">Action</th>
             </thead>
             <tbody>
@@ -73,7 +73,7 @@
                 </tr>
             </tbody>
         </table>
-        <div class="create_btn" id="BtnCreate">
+        <div  id="hello">
             <button href="creat.php" class="btn-create">Add Post</button>
             <button href="index.php" class="btn-create"> Manage Posts </button>
         </div>
