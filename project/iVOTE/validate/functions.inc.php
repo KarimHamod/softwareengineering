@@ -107,7 +107,7 @@
         elseif($check_password=true)
         {
             session_start();
-            $_SESSION["User_id"]=$userexists["User_id"]
+            $_SESSION["User_Name"]=$userexists["User_Name"];
         }
 
     }
