@@ -44,6 +44,7 @@
             <button  class="buttons" type="reset" name="clear">Reset</button>
 
     </form>
+    
 </section>
 </html>
    

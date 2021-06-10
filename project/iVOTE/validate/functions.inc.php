@@ -82,5 +82,34 @@
         header("location: ../signup.php?error=none");
         exit();  
     }
+    function emptyInputlogin($User_Name,$password){
+        $result=false;
+        if(empty($User_Name)||empty($password)){
+            $result=true;
+        }
+        else
+        {
+            $result=false;
+        }
+        return $result;
+    }
+    function login_user($conn,$User_Name,$password){
+        $userexists=UserExists($conn,$User_Name,$User_Name);
+        if($userexists=false){
+            header("location: ../login.php?error=user_doesnt_exist");
+            exit();
+        }
+        $hashPwd=$userexists["pwd"];
+        $check_password=password_verify($password,$hashPwd);
+        if($check_password=false){
+            header("location: ../login.php?error=wrongpassword");
+        }
+        elseif($check_password=true)
+        {
+            session_start();
+            $_SESSION["User_id"]=$userexists["User_id"]
+        }
+
+    }
     
 ?>
