@@ -17,11 +17,11 @@
         </div>
         <ul class="nav navbar-nav">
             <li><a class="navi" href="candidate.php">Candidates</a></li>
-            <li><a class="navi" href="#">Results</a></li>
+            <li><a class="navi" href="results.php">Results</a></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a  class="navi" href="#">About Us</a></li>
+            <li><a  class="navi" href="aboutus.php">About Us</a></li>
             <li><a  class="navi" href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a  class="navi" href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>

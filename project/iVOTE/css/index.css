@@ -154,3 +154,83 @@ p.lineOver {
     width:35%;
     color:midnightblue;
 }
+.homepage{
+    margin-top: 100px;
+    font-size: large;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: solid 3px midnightblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+.aim{
+    border: solid 3px midnightblue;
+    border-radius: 50px;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+}
+.votingimage{
+    margin-left: 50px;
+}
+.about{
+    margin-top: 100px;
+    font-size: large;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: solid 3px midnightblue;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.personalemails{
+    list-style: none;
+    margin-left:-10px:
+}
+.bau{
+    margin-left: 50px;
+    width: 500px;
+    height:350px;
+}
+.box-scores{
+
+    border: solid 1px midnightblue;
+    width: 900px;
+    border-radius: 20px;
+    margin-top: 100px;
+    float: left;
+    margin-right:30px;
+}
+.score{
+    text-align: center;
+    font-size:50px;
+    margin-right: 100px;
+    float: right;
+    margin-top: 100px;
+}
+.result{
+    float:right;
+    width:600px;
+    margin-right: 32%;
+    color: midnightblue;
+}
+.winner{
+    color: midnightblue;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 1px midnightblue;
+
+}
+.winnername{
+    background-color: midnightblue;
+    color: white;
+    border: solid 1px white;
+    text-align: center  ;
+    border-radius: 30px;
+}
+.speech{
+    border: solid 3px midnightblue;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
